@@ -1,4 +1,4 @@
-### index.jsx for component testing
+# index.jsx for component testing
 
 
 ## Rectangle Box
