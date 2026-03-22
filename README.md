@@ -1,3 +1,6 @@
+### index.jsx for component testing
+
+
 ## Rectangle Box
 
 ```
