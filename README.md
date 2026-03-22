@@ -1,6 +1,6 @@
-##Rectangle Box
+## Rectangle Box
 
- 
+```
 import React from "react";
 import { render, Box as InkBox, Text } from "ink";
 import {
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <InkBox flexDirection="column" gap={2} padding={1}>
 
-      {/* Header */}
+      
       <InkBox flexDirection="column">
         <Text bold color="cyanBright">
           Terminal UI Components Showcase
@@ -87,13 +87,14 @@ const App = () => {
 };
 
 render(<App />);
+```
 
 
 
 
+## BOX Component
 
-##BOX Component
-
+```
 import React from "react";
 import { Box, Text, render } from "ink";
 import {
@@ -209,10 +210,11 @@ const App = () => {
 };
 
 render(<App />);
+```
 
+## ALERT component
 
-##ALERT component
-
+```
 import React from "react";
 import { render, Box, Text } from "ink";
 import {
@@ -300,12 +302,12 @@ function App() {
 }
 
 render(<App />);
+```
 
 
+## TextInput component
 
-##TextInput component
-
-
+```
 import React, { useState } from "react";
 import { render, Box, Text } from "ink";
 import TextInput from "./components/TextInput.jsx"; // adjust path if needed
@@ -446,11 +448,12 @@ function App() {
 }
 
 render(<App />);
+```
 
 
+## Spinner Component
 
-##Spinner Component
-
+```
 import React, { useState, useEffect } from "react";
 import { render, Box, Text } from "ink";
 import { Spinner, SpinnerGroup } from "./components/Spinner"; // adjust path if needed
@@ -606,10 +609,12 @@ function App() {
 }
 
 render(<App />);
+```
 
 
+## Progress Bar
 
-##Progress Bar
+```
 import React, { useState, useEffect } from "react";
 import { render, Box, Text } from "ink";
 import { ProgressBar, MultiProgressBar } from "./ProgressBar"; // adjust path if needed
@@ -733,10 +738,11 @@ function App() {
 }
 
 render(<App />);
+```
 
+## TABLE 
 
-##TABLE 
-
+```
 import React, { useState } from "react";
 import { render, Box, Text } from "ink";
 import { Table } from "./components/Table"; // adjust path if needed
@@ -855,10 +861,12 @@ function App() {
 // ─── Render ────────────────────────────────────────────────────────────────
 
 render(<App />);
+```
 
 
-##SELECT Component
+## SELECT Component
 
+```
 import React from "react";
 import { render } from "ink";
 import Select from "./components/Select"; // adjust path if needed
@@ -938,9 +946,12 @@ function App() {
 
 render(<App />);
 
+```
 
-##KeyHints
 
+## KeyHints
+
+```
 import React from "react";
 import { Box, Text, render } from "ink";
 import KeyHints from "./KeyHints"; // adjust path if needed
@@ -1005,11 +1016,12 @@ function App() {
 }
 
 render(<App />);
+```
 
 
+## TABS
 
-##TABS
-
+```
 import React from "react";
 import { Box, Text, render } from "ink";
 import Tabs from "./Tabs"; // adjust path if needed
@@ -1088,6 +1100,6 @@ function App() {
 
 render(<App />);
 
-
+```
 
 
